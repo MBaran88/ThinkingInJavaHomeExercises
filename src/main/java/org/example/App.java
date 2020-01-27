@@ -5,9 +5,9 @@ package org.example;
  */
 public class App {
     public static void main(String[] args) {
-        char C = 'c';
-        Character ch = new Character(C);
 
+        AutoboxingExample autoboxingExample = new AutoboxingExample();
+        AutoboxingExample.CharAutoboxing();
 
     }
 }
