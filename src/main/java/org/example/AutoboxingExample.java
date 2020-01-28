@@ -24,8 +24,9 @@ public class AutoboxingExample {
 
     static void BooleanAutoboxing() {
         boolean i = false;
-        Boolean I = false;
-        if (i == I) {
+        Boolean I = i;
+
+        if (I == false) {
             System.out.println("Boolean autoboxing works");
         } else {
             System.out.println("Boolean autoboxing does not work");
