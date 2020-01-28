@@ -8,9 +8,8 @@ public class App {
 
         AutoboxingExample autoboxingExampleChar = new AutoboxingExample();
         AutoboxingExample.CharAutoboxing();
-
-        AutoboxingExample autoboxingExampleInt = new AutoboxingExample();
         AutoboxingExample.IntegerAutoboxing();
+        AutoboxingExample.BooleanAutoboxing();
 
     }
 }
