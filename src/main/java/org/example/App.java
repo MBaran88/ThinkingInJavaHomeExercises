@@ -10,6 +10,7 @@ public class App {
         AutoboxingExample.CharAutoboxing();
         AutoboxingExample.IntegerAutoboxing();
         AutoboxingExample.BooleanAutoboxing();
+        AutoboxingExample.ByteAutoboxing();
 
     }
 }

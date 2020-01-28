@@ -32,4 +32,11 @@ public class AutoboxingExample {
             System.out.println("Boolean autoboxing does not work");
         }
     }
+
+    static void ByteAutoboxing() {
+        byte b = 0;
+        Byte B = b;
+        System.out.println("If byte autoboxing works then this should be 0 ---> " + B);
+
+    }
 }
