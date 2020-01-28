@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AutoboxingExample {
     static void CharAutoboxing() {
         char C = 'c';
@@ -9,5 +12,13 @@ public class AutoboxingExample {
         Character dd = 'd';
         char D = dd;
         System.out.println("char unboxing " + D);
+    }
+
+    static void IntegerAutoboxing() {
+        List<Integer> li = new ArrayList<>();
+        for (int j = 0; j < 50; j += 2) {
+            li.add(j);
+        }
+        System.out.println(li);
     }
 }

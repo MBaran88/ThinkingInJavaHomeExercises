@@ -6,8 +6,11 @@ package org.example;
 public class App {
     public static void main(String[] args) {
 
-        AutoboxingExample autoboxingExample = new AutoboxingExample();
+        AutoboxingExample autoboxingExampleChar = new AutoboxingExample();
         AutoboxingExample.CharAutoboxing();
+
+        AutoboxingExample autoboxingExampleInt = new AutoboxingExample();
+        AutoboxingExample.IntegerAutoboxing();
 
     }
 }
