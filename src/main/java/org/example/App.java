@@ -12,8 +12,8 @@ public class App {
 //        AutoboxingExample.BooleanAutoboxing();
 //        AutoboxingExample.ByteAutoboxing();
 
-        ScannerController scannerController = new ScannerController();
-        scannerController.InputScanner();
+//        ScannerController scannerController = new ScannerController();
+//        scannerController.InputScanner();
 
     }
 }
