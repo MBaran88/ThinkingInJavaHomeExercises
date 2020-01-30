@@ -34,22 +34,23 @@ line. To do this, you’ll need to index into the command-line array of Strings.
 #DONE
 Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a program that
 compiles and runs.
-
+#DONE
 Exercise 12: (2) Find the code for the second version of HelloDate.java, which is the
 simple comment documentation example. Execute Javadoc on the file and view the results
 with your Web browser.
-
+#NODOC
 Exercise 13: (1) Run Documentation1.java, Documentation2.java, and
 Documentation3.java through Javadoc. Verify the resulting documentation with your
 Web browser.
-
+#NODOC
 Exercise 14: (1) Add an HTML list of items to the documentation in the previous
 exercise.
-
+#NODOC
 Exercise 15: (1) Take the program in Exercise 2 and add comment documentation to it.
 Extract this comment documentation into an HTML file using Javadoc and view it with
 your Web browser.
-
+#NODOC
 Exercise 16: (1) In the Initialization & Cleanup chapter, locate the Overloading.java
 example and add Javadoc documentation. Extract this comment documentation into an
 HTML file using Javadoc and view it with your Web browser.
+#NODOC
