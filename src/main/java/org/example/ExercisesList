@@ -31,7 +31,7 @@ primitive types and their wrappers.
 #DONE
 Exercise 10: (2) Write a program that prints three arguments taken from the command
 line. To do this, you’ll need to index into the command-line array of Strings.
-
+#DONE
 Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a program that
 compiles and runs.
 
