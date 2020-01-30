@@ -3,7 +3,7 @@ package org.example;
 public class AllTheColorsOfRainbow {
     int anIntegerRepresentingColors;
 
-    void changeTheHueOfTheColor(int newHue) {
-
+    static Integer changeTheHueOfTheColor(int anIntegerRepresentingColors) {
+        return anIntegerRepresentingColors + 5;
     }
 }
