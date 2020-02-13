@@ -5,10 +5,10 @@ public class FibonacciCount {
 
         int f[] = new int[input];
         for (int i = 0; i < f.length; i++) {
-            if (i <= 1) {
-                return i;
+            if (f[i] <= 1) {
+                return f[i];
             } else {
-                return i - 1 + i - 2;
+                return f[i] - 1 + f[i] - 2;
             }
         }
         return f[input];
