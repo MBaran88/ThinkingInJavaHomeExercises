@@ -1,5 +1,7 @@
 package Chapter4Excersises;
 
+import static Chapter4Excersises.VampireNumbers.findVampireNumbers;
+
 public class ExNine {
     public static void main(String[] args) {
 //        for (int i = 0; i < 5; i++) {
@@ -20,8 +22,10 @@ public class ExNine {
 //                    System.out.println("default");
 //            }
 //        }
-        Fiboclass fibonacciCount = new Fiboclass();
-        fibonacciCount.fiboCount(10);
-        System.out.println(fibonacciCount.fiboCount(10));
+//        Fiboclass fibonacciCount = new Fiboclass();
+//        fibonacciCount.fiboCount(10);
+//        System.out.println(fibonacciCount.fiboCount(10));
+        VampireNumbers vampireNumbers = new VampireNumbers();
+        System.out.println(findVampireNumbers(100, 0));
     }
 }
