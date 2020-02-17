@@ -13,8 +13,10 @@ public class Fiboclass {
             if (x <= 1) {
                 x = 1;
                 fiboList.add(x);
+            } else if (x == 2) {
+                fiboList.add(x);
             } else {
-                x = x - 1 + x - 2;
+                x = fiboList.get(i - 1) + fiboList.get(i - 2);
                 fiboList.add(x);
             }
 

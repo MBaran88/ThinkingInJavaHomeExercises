@@ -21,6 +21,7 @@ public class ExNine {
 //            }
 //        }
         Fiboclass fibonacciCount = new Fiboclass();
-        fibonacciCount.fiboCount(5);
+        fibonacciCount.fiboCount(10);
+        System.out.println(fibonacciCount.fiboCount(10));
     }
 }
