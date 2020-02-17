@@ -20,8 +20,7 @@ public class ExNine {
 //                    System.out.println("default");
 //            }
 //        }
-        FibonacciCount fibonacciCount = new FibonacciCount();
-        FibonacciCount.FibonacciCountMethod(5);
-
+        Fiboclass fibonacciCount = new Fiboclass();
+        fibonacciCount.fiboCount(5);
     }
 }
