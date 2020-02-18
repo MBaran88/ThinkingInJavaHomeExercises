@@ -23,7 +23,7 @@ public class VampireNumbers {
                 for (int k = 0; k < randomsCharArray.length; k++) {
                     char foo2 = Array.getChar(randomsCharArray, k);
                     if (foo == foo2) {
-                        System.out.println(foo + foo2);
+                        char[] tableToCompare = ("" + foo2).toCharArray();
                     }
                 }
             }
