@@ -42,6 +42,27 @@ public class Detergent extends Cleanser {
     public void foam() {
         append(" foam()");
     }
+public class DetergentDelegation{
+    private Cleanser cleanser = new Cleanser();
+
+    //delegating methods
+    public void append (String s){
+        cleanser.append(s);
+    }
+
+    public void dilute(){
+        cleanser.dilute();
+    }
+
+    public void apply(){
+        cleanser.apply();
+    }
+
+    public void scrub(){
+        append(" DetergentDelegation.scrub()");
+        cleanser.scrub();
+    }
+}
 
     // Test the new class:
     public static void main(String[] args) {
